@@ -1,0 +1,198 @@
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2008 Nathaniel Johnston <nathaniel@nathanieljohnston.com> http://www.nathanieljohnston.com
+%
+% (c) 2012 Scott Clark <sc932@cornell.edu> cam.cornell.edu/~sc932
+%
+%This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 2.5 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+\newlength{\outerbordwidth}
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\usepackage[svgnames]{xcolor}
+\usepackage{framed}
+\usepackage{tocloft}
+\usepackage{multicol}
+
+
+%-----------------------------------------------------------
+%Edit these values as you see fit
+
+\setlength{\outerbordwidth}{3pt}  % Width of border outside of title bars
+\definecolor{shadecolor}{gray}{0.75}  % Outer background color of title bars (0 = black, 1 = white)
+\definecolor{shadecolorB}{gray}{0.93}  % Inner background color of title bars
+
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\evensidemargin}{-0.25in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\paperheight}{11in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\tabcolsep}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{7in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\topskip}{0in}
+\setlength{\voffset}{0.1in}
+
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{\vspace{8pt}
+  \parbox{\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
+    \begin{shaded}
+\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\sffamily{\mbox{~}\makebox[6.762in][l]{\large #1} \vphantom{p\^{E}}}}}}
+    \end{shaded}
+  }\vspace{-5pt}
+}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Jamie Southgate} & \textbf{\today} \\
+16 Jacqueline Str,  & jamietijger@gmail.com \\
+De Tijger Cape Town 7500 & 0765210578 \\
+\end{tabular*}
+\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Education}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+
+\item
+
+\ressubheading{University of the Western Cape}{Cape Town, South Africa}{BSc Hon Computer Science}{2016 - 2016}
+
+\begin{itemize}
+	\resitem{Machine Learning}
+	\resitem{Image Processing}
+	\resitem{Project Analysis and Design}
+\end{itemize}
+
+\item \ressubheading{University of the Western Cape}{Cape Town, South Africa}{BSc Computer Science}{2013 - 2015}
+
+\begin{itemize}
+	\resitem{72.4\% Grade Average }
+	\resitem{Information Systems}
+	\resitem{Statistics}
+\end{itemize}
+
+
+\item \ressubheading{St Joseph's College}{London, United Kingdom}{A-Levels}{2005 - 2012}
+
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Work Experience}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+
+\item \ressubheading{University of the Western Cape}{Cape Town, South Africa}{Computer Science Teaching Assistant}{2016 - 2016}
+
+\begin{itemize}
+	\resitem{Coordinating practicals and tutorials}
+	\resitem{Invigilation and marking}
+\end{itemize}
+
+\item \ressubheading{Evans Cycles, Dulwich}{London, United Kingdom}{Sales Assistant}{2015 - 2016}
+\begin{itemize}
+	\resitem{Operating Tills}
+	\resitem{Handling deliveries}
+\end{itemize}
+
+
+\item \ressubheading{Topman, Oxford Circus}{London, United Kingdom}{Suits Specialist}{2013 - 2014}
+\begin{itemize}
+	\resitem{Offered product knowledge to aid customers}
+\end{itemize}
+
+\item \ressubheading{Sainsbury's Local, South Norwood}{London, United Kingdom}{Customer Service Assistant}{2012}
+
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Projects}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\vspace{-2pt}
+	\begin{center}\begin{tabular*}{6.6in}{l@{\extracolsep{\fill}}r}
+		\multicolumn{2}{c}{UWC ComLink - Campus Crowd Source Ride Share \cftdotfill{\cftdotsep} 2015}\\
+        \multicolumn{2}{c}{Food Classification to provide Nutritional Information \cftdotfill{\cftdotsep} 2016}\\
+        \multicolumn{2}{c}{Energy Storage Data Telemetry System \cftdotfill{\cftdotsep} 2016}\\
+		\vphantom{E}
+\end{tabular*}
+\end{center}\vspace*{-16pt}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Awards, Grants \& Honours}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\vspace{-2pt}
+	\begin{center}\begin{tabular*}{6.6in}{l@{\extracolsep{\fill}}r}
+	    \multicolumn{2}{c}{Academic Excellence in Computer Science \cftdotfill{\cftdotsep} 2014}\\
+		\multicolumn{2}{c}{SAS Programming \cftdotfill{\cftdotsep} 2015}\\
+        \multicolumn{2}{c}{ NRF Innovation Hons Bursary (R50,000)  \cftdotfill{\cftdotsep} 2016}\\
+		\vphantom{E}
+\end{tabular*}
+\end{center}\vspace*{-16pt}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Skills}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+\item {\bf Computer Science:} Machine Learning, Theory of Computation, Linear Algebra, Data Structures, Image Processing, Internet Programming
+
+\item {\bf Customer Service:} I worked at Topman's flagship Oxford Circus branch and other retail outlets providing personal service to clients .
+
+\item {\bf Development:} Python (preferred), Java, HTML, CSS, MySQL, Octave, \LaTeX
+
+\item {\bf Technology:} Windows, Linux, git, Adobe Photoshop
+
+\item {\bf Project Management:} Successfully managed numerous University projects
+
+
+\end{itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Interests}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{itemize}
+
+\item {\bf Mountaineering:} Member of the Mountain Club of South Africa, Web-Administrator for Paarl-Wellington section
+
+\item {\bf Cycling:} Completed 3 Cape Town Cycle Tours
+
+\item {\bf Running:} Aiming to complete a marathon in 2017
+
+
+
+\end{itemize}
+
+
+
+
+\end{document}

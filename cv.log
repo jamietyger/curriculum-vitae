@@ -1,0 +1,303 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdftex 2017.2.21)  21 FEB 2017 15:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**cv.tex
+(./cv.tex
+! Undefined control sequence.
+l.9 \documentclass
+                  [letterpaper,11pt]{article}
+? 
+! Undefined control sequence.
+l.10 \newlength
+               {\outerbordwidth}
+? 
+! Undefined control sequence.
+l.10 \newlength{\outerbordwidth
+                               }
+? 
+! Undefined control sequence.
+l.11 \pagestyle
+               {empty}
+? 
+! Undefined control sequence.
+l.14 \usepackage
+                [svgnames]{xcolor}
+? 
+! Undefined control sequence.
+l.15 \usepackage
+                {framed}
+? 
+! Undefined control sequence.
+l.16 \usepackage
+                {tocloft}
+? 
+! Undefined control sequence.
+l.17 \usepackage
+                {multicol}
+? 
+! Undefined control sequence.
+l.23 \setlength
+               {\outerbordwidth}{3pt}  % Width of border outside of title bars
+? 
+! Undefined control sequence.
+l.23 \setlength{\outerbordwidth
+                               }{3pt}  % Width of border outside of title bars
+? 
+! Undefined control sequence.
+l.24 \definecolor
+                 {shadecolor}{gray}{0.75}  % Outer background color of title...
+
+? 
+! Undefined control sequence.
+l.25 \definecolor
+                 {shadecolorB}{gray}{0.93}  % Inner background color of titl...
+
+? 
+! Undefined control sequence.
+l.31 \setlength
+               {\evensidemargin}{-0.25in}
+? 
+! Undefined control sequence.
+l.31 \setlength{\evensidemargin
+                               }{-0.25in}
+? 
+! Undefined control sequence.
+l.32 \setlength
+               {\headheight}{0in}
+? 
+! Undefined control sequence.
+l.32 \setlength{\headheight
+                           }{0in}
+? 
+! Undefined control sequence.
+l.33 \setlength
+               {\headsep}{0in}
+? 
+! Undefined control sequence.
+l.33 \setlength{\headsep
+                        }{0in}
+? 
+! Undefined control sequence.
+l.34 \setlength
+               {\oddsidemargin}{-0.25in}
+? 
+! Undefined control sequence.
+l.34 \setlength{\oddsidemargin
+                              }{-0.25in}
+? 
+! Undefined control sequence.
+l.35 \setlength
+               {\paperheight}{11in}
+? 
+! Undefined control sequence.
+l.35 \setlength{\paperheight
+                            }{11in}
+? 
+! Undefined control sequence.
+l.36 \setlength
+               {\paperwidth}{8.5in}
+? 
+! Undefined control sequence.
+l.36 \setlength{\paperwidth
+                           }{8.5in}
+? 
+! Undefined control sequence.
+l.37 \setlength
+               {\tabcolsep}{0in}
+? 
+! Undefined control sequence.
+l.37 \setlength{\tabcolsep
+                          }{0in}
+? 
+! Undefined control sequence.
+l.38 \setlength
+               {\textheight}{9.5in}
+? 
+! Undefined control sequence.
+l.38 \setlength{\textheight
+                           }{9.5in}
+? 
+! Undefined control sequence.
+l.39 \setlength
+               {\textwidth}{7in}
+? 
+! Undefined control sequence.
+l.39 \setlength{\textwidth
+                          }{7in}
+? 
+! Undefined control sequence.
+l.40 \setlength
+               {\topmargin}{-0.3in}
+? 
+! Undefined control sequence.
+l.40 \setlength{\topmargin
+                          }{-0.3in}
+? 
+! Undefined control sequence.
+l.41 \setlength
+               {\topskip}{0in}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.41 \setlength{\topskip}
+                         {0in}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.41 \setlength{\topskip}
+                         {0in}
+? 
+! Undefined control sequence.
+l.42 \setlength
+               {\voffset}{0.1in}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.42 \setlength{\voffset}
+                         {0.1in}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.42 \setlength{\voffset}
+                         {0.1in}
+? 
+! Undefined control sequence.
+l.47 \newcommand
+                {\resitem}[1]{\item #1 \vspace{-2pt}}
+? 
+! Undefined control sequence.
+l.47 \newcommand{\resitem
+                         }[1]{\item #1 \vspace{-2pt}}
+? 
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ##
+             \enspace 
+\llap #1->\hbox to\z@ {\hss #1
+                              }
+\textindent #1->\indent \llap {#1\enspace }
+                                           \ignorespaces 
+l.47 \newcommand{\resitem}[1]{\item #
+                                     1 \vspace{-2pt}}
+? 
+! Undefined control sequence.
+l.47 \newcommand{\resitem}[1]{\item #1 \vspace
+                                              {-2pt}}
+? 
+! Undefined control sequence.
+l.48 \newcommand
+                {\resheading}[1]{\vspace{8pt}
+? 
+! Undefined control sequence.
+l.48 \newcommand{\resheading
+                            }[1]{\vspace{8pt}
+? 
+! Undefined control sequence.
+l.48 \newcommand{\resheading}[1]{\vspace
+                                        {8pt}
+? 
+! Undefined control sequence.
+l.49   \parbox
+              {\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
+? 
+! Undefined control sequence.
+l.49   \parbox{\textwidth
+                         }{\setlength{\FrameSep}{\outerbordwidth}
+? 
+! Undefined control sequence.
+l.49   \parbox{\textwidth}{\setlength
+                                     {\FrameSep}{\outerbordwidth}
+? 
+! Undefined control sequence.
+l.49   \parbox{\textwidth}{\setlength{\FrameSep
+                                               }{\outerbordwidth}
+? 
+! Undefined control sequence.
+l.49 ...dth}{\setlength{\FrameSep}{\outerbordwidth
+                                                  }
+? 
+! Undefined control sequence.
+l.50     \begin
+               {shaded}
+? 
+! Undefined control sequence.
+l.51 \setlength
+               {\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{...
+
+? 
+! Undefined control sequence.
+l.51 \setlength{\fboxsep
+                        }{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{...
+
+? 
+! Undefined control sequence.
+l.51 \setlength{\fboxsep}{0pt}\framebox
+                                       [\textwidth][l]{\setlength{\fboxsep}{...
+
+? 
+! Undefined control sequence.
+l.51 \setlength{\fboxsep}{0pt}\framebox[\textwidth
+                                                  ][l]{\setlength{\fboxsep}{...
+
+? 
+! Undefined control sequence.
+l.51 ...p}{0pt}\framebox[\textwidth][l]{\setlength
+                                                  {\fboxsep}{4pt}\fcolorbox{...
+
+? 
+! Undefined control sequence.
+l.51 ...ramebox[\textwidth][l]{\setlength{\fboxsep
+                                                  }{4pt}\fcolorbox{shadecolo...
+
+? 
+! Undefined control sequence.
+l.51 ...th][l]{\setlength{\fboxsep}{4pt}\fcolorbox
+                                                  {shadecolorB}{shadecolorB}...
+
+? 
+! Undefined control sequence.
+l.51 ...colorbox{shadecolorB}{shadecolorB}{\textbf
+                                                  {\sffamily{\mbox{~}\makebo...
+
+? 
+! Undefined control sequence.
+l.51 ...hadecolorB}{shadecolorB}{\textbf{\sffamily
+                                                  {\mbox{~}\makebox[6.762in]...
+
+? 
+! Undefined control sequence.
+l.51 ...lorB}{shadecolorB}{\textbf{\sffamily{\mbox
+                                                  {~}\makebox[6.762in][l]{\l...
+
+? 
+! Undefined control sequence.
+l.51 ...colorB}{\textbf{\sffamily{\mbox{~}\makebox
+                                                  [6.762in][l]{\large #1} \v...
+
+? 
+! Undefined control sequence.
+l.51 ...family{\mbox{~}\makebox[6.762in][l]{\large
+                                                   #1} \vphantom{p\^{E}}}}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.51 ...mily{\mbox{~}\makebox[6.762in][l]{\large #
+                                                  1} \vphantom{p\^{E}}}}}}
+? 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 49 ({)
+### simple group (level 1) entered at line 48 ({)
+### bottom level </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.
+pk>
+Output written on cv.pdf (1 page, 11113 bytes).
+PDF statistics:
+ 48 PDF objects out of 1000 (max. 8388607)
+ 8 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
